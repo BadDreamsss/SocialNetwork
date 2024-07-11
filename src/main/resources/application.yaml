@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: SocialNetwork
+  thymeleaf:
+    cache: false
+  datasource:
+    name: social
+    username: postgres
+    password: rootroot
+    url: jdbc:postgresql://localhost:5432/social
+    hikari:
+      driver-class-name: org.postgresql.Driver
+data:
+  mongodb:
+    database: test
+    port: 27017
